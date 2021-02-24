@@ -1,0 +1,43 @@
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #10d4cb;
+    color: black;
+}
+
+
+h1 {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+/* Navigation Styling */
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+  
+}
+
+.nav-item .nav-link {
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+/* 
+li {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+ */
