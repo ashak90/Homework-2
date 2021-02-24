@@ -41,3 +41,30 @@ li {
 
 }
  */
+ .content {
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #cccccc;
+}
+.headShot {
+    height: 300px;
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 30px;
+    float: left;
+}
+
+/* h1 {
+    padding-top: 50px;
+    font-size: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple; */
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
