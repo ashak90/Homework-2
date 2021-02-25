@@ -110,6 +110,17 @@ h3 {
         
 }
 
+.myWork:hover {
+    transform: scale(1.2);
+    z-index: 1;
+
+}
+
+.myWork:hover .heading{
+    transition: .5s ease;
+    height: 310px;
+}
+
 #codeRefactor{
     grid-area: codeRefactor;
     background-image: url(../images/webdevelopmetCropped.jpeg);
@@ -190,6 +201,10 @@ h3 {
     
 }
 
+.description {
+    font-size: 15px;
+    padding: 15px;
+}
 footer ul {
     display: flex;
     justify-content: center;
