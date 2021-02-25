@@ -98,38 +98,57 @@ h3 {
 #myWork {
     margin-top: 20px;
     display: grid;
-    grid-template-rows: 325px 90px 75px;
+    grid-template-rows: 325px 325px 80px;
     grid-template-columns: 400px 400px 400px;
     grid-gap: 10px;
     align-content: center;
     justify-content: center;
     grid-template-areas: 
-         "voyage huliTuli bba"
-         "voyage huliTuli bba"
+         "codeRefactor dayPlanner password"
+         "weather noteTaker fitnessTracker"
          "blank1 allProjects blank2";
         
 }
 
-#huliTuli{
-    grid-area: huliTuli;
-    background-image: url(../images/htLogo.png);
+#codeRefactor{
+    grid-area: codeRefactor;
+    background-image: url(../images/webdevelopmetCropped.jpeg);
 } 
 
 
-#bba {
-    grid-area: bba;
-    background-image: url(../images/bbaLogo.png);
+#dayPlanner {
+    grid-area: dayPlanner;
+    background-image: url(../images/dayPlanner.jpg);
 }
 
+#password {
+    grid-area: password;
+    background-image: url(../images/password.jpg);
+
+}
+
+#weather {
+    grid-area: weather;
+    background-image: url(../images/weather.gif);
+
+}
+
+#noteTaker {
+    grid-area: noteTaker;
+    background-image: url(../images/noteTaker.jpg);
+
+}
+
+#fitnessTracker {
+    grid-area: fitnessTracker;
+    background-image: url(../images/fitnessTracker.jpg);
+
+}
 #allProjects {
     grid-area: allProjects;
 }
 
-#voyage {
-    grid-area: voyage;
-    background-image: url(../images/voyageLogo.png);
 
-}
 .myWork {
     background-position: center;
     background-size: cover;
