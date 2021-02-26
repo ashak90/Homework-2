@@ -114,7 +114,7 @@ h3 {
         
 }
 
-.myWork:hover {
+/* .myWork:hover {
     transform: scale(1.2);
     z-index: 1;
 
@@ -123,7 +123,8 @@ h3 {
 .myWork:hover .heading{
     transition: .5s ease;
     height: 310px;
-}
+    border-bottom: 5px solid #478BA7; 
+} */
 
 #codeRefactor{
     grid-area: codeRefactor;
@@ -174,6 +175,7 @@ h3 {
     align-content: end;
     border-style: solid;
     border-color: black;
+    border-radius: 10px;
 }
 
 .heading {
@@ -216,4 +218,52 @@ footer ul {
     list-style-type: none;
     margin: 0;
     padding: 60px;
+}
+
+@media only screen and (min-width:900px) {
+
+    .myWork:hover {
+        transform: scale(1.2);
+        z-index: 1;
+
+    }
+
+    .myWork:hover .heading{
+        transition: .5s ease;
+        height: 310px;
+        border-bottom: 5px solid #478BA7;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #myWork {
+        /* margin-top: 20px;
+        display: grid; */
+        grid-template-rows: 450px 450px 450px 80px;
+        grid-template-columns: 400px;
+        grid-gap: 10px;
+        align-content: center;
+        justify-content: center;
+        grid-template-areas: 
+             "codeRefactor "
+             "dayPlanner"
+             "password"
+             "allProjects";
+            
+    }
+
+    #weather {
+        display: none;
+    
+    }
+    
+    #noteTaker {
+       display: none;
+    
+    }
+    
+    #fitnessTracker {
+       display: none;
+    
+    }
 }
