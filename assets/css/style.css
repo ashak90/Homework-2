@@ -83,13 +83,10 @@ p {
 
 }
 
-.mail {
+.glyph {
     margin-right: 20px;
 }
 
-.linkedin {
-    margin-right: 20px;
-}
 
 main {
     margin-top: 100px;
@@ -218,6 +215,19 @@ h3 {
     font-size: 15px;
     padding: 15px;
 }
+
+.connect {
+    padding-top: 30px;
+}
+
+form {
+    /* border: black solid 10px; */
+    /* margin-left: 50px;
+    margin-right: 25px; */
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 footer ul {
     display: flex;
     justify-content: center;
