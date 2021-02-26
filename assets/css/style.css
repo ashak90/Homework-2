@@ -231,6 +231,83 @@ footer ul {
     }
 }
 
+@media only screen and (max-width: 899px)  {
+    .headShot {
+        height: 300px;
+        width: 300px;
+        padding-left: 30px;
+        padding-top: 50px;
+        padding-right: 30px;
+        margin-right: 35px;
+    }
+
+    h2 {
+        padding-top: 75px;
+        font-size: 40px;
+        margin-left: 55px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: purple; 
+    }
+
+    p {
+        padding-top: 45px;
+        margin-left: 40px;
+        text-align: left;
+        text-indent: 20px;
+        line-break: inherit;
+    }
+
+    .icons {
+        margin-top: 35px;
+    }
+
+    .content {
+        display: inline-block;
+    }
+    #myWork {
+        display: grid;
+        grid-template-rows:  450px 450px 450px 80px;
+        grid-template-columns: 350px 350px;
+        
+        grid-gap: 10px;
+        align-content: center;
+        justify-content: center;
+        grid-template-areas: 
+             "codeRefactor dayPlanner"
+             "password budget"
+             "weather noteTaker"
+             "allProjects";
+            
+    }
+
+    #fitnessTracker {
+        display: none;
+     
+     }
+
+     #budget {
+        display: none;
+    
+    }
+
+    /* #codeRefactor {
+        display: none;
+    } */
+
+    /* #weather {
+        display: none;
+    
+    }
+    
+
+    #noteTaker {
+       display: none;
+    
+    } */
+    
+    
+}
+
 @media only screen and (max-width:600px) {
     .headShot {
         height: 300px;
