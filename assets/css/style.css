@@ -102,15 +102,16 @@ h3 {
 #myWork {
     margin-top: 20px;
     display: grid;
-    grid-template-rows: 325px 325px 80px;
+    grid-template-rows: 650px 325px 325px 80px;
     grid-template-columns: 400px 400px 400px;
     grid-gap: 10px;
     align-content: center;
     justify-content: center;
     grid-template-areas: 
-         "codeRefactor dayPlanner password"
-         "weather noteTaker fitnessTracker"
-         "blank1 allProjects blank2";
+        "codeRefactor codeRefactor codeRefactor"
+        "dayPlanner password budget"
+        "weather noteTaker fitnessTracker"
+        "blank1 allProjects blank2";
         
 }
 
@@ -140,6 +141,12 @@ h3 {
 #password {
     grid-area: password;
     background-image: url(../images/password.jpg);
+
+}
+
+#budget {
+    grid-area: budget;
+    background-image: url(../images/budget.jpeg)
 
 }
 
@@ -240,7 +247,7 @@ footer ul {
         height: 300px;
         width: 300px;
         padding-left: 30px;
-        /* padding-top: 50px; */
+        padding-top: 50px;
         padding-right: 30px;
         margin-right: 35px;
     }
@@ -291,6 +298,10 @@ footer ul {
     
     }
     
+    #budget {
+        display: none;
+    
+    }
     #noteTaker {
        display: none;
     
