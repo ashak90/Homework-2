@@ -207,9 +207,6 @@ h3 {
 }
 
 form {
-    /* border: black solid 10px; */
-    /* margin-left: 50px;
-    margin-right: 25px; */
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -226,12 +223,6 @@ footer ul {
 
 
 @media only screen and (min-width:900px) {
-
-    .myWork:hover {
-        transform: scale(1.2);
-        z-index: 1;
-
-    }
 
     .myWork:hover .heading{
         transition: .5s ease;
