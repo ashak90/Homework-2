@@ -2,4 +2,4 @@
 
 ## Screenshot
 
-![screenshot](./Assets/images/homepageScreenshot.png)
+![screenshot](./assets/images/homepageScreenshot.png)
